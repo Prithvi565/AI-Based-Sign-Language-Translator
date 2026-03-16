@@ -469,7 +469,7 @@ def main():
     with open(f"{args.output_dir}/class_names.json", "w") as f:
         json.dump(class_names, f, indent=2)
 
-    save_plots(history, ts_true, ts_preds, class_names, args.output_dir)
+    # save_plots(history, ts_true, ts_preds, class_names, args.output_dir)
 
     print(f"\n{'═'*62}")
     print(f"  ✅ Done!")
